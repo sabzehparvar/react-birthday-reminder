@@ -31,20 +31,4 @@ export default [
     avatar: "https://reqres.in/img/faces/10-image.jpg",
     age: 40,
   },
-  {
-    id: 5,
-    email: "george.edwards@reqres.in",
-    first_name: "George",
-    last_name: "Edwards",
-    avatar: "https://reqres.in/img/faces/11-image.jpg",
-    age: 30,
-  },
-  {
-    id: 6,
-    email: "rachel.howell@reqres.in",
-    first_name: "Rachel",
-    last_name: "Howell",
-    avatar: "https://reqres.in/img/faces/12-image.jpg",
-    age: 28,
-  },
 ];
