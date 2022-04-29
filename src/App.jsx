@@ -10,8 +10,10 @@ const App = () => {
     <>
       <div className="container p-5 birthday-card ">
         <div className="card mt-5">
-          <h4 className=" card-body text-center text-capitalize birthday">
-            There are {people.length} birthdays today
+          <h4 className=" card-body text-center birthday" dir="rtl">
+            {people.length !== 0
+              ? `امروز ${people.length} تولد داریم`
+              : `امروز هیچ تولدی نداریم`}
           </h4>
           <div className=" card-body border-top ">
             <List people={people} handleDelete={handleDelete}></List>
@@ -24,7 +26,7 @@ const App = () => {
               }}
               className="btn btn-md btn-warning shadow p-2 w-75 mb-5"
             >
-              Clear all
+              حذف کردن همه
             </button>
           </div>
         </div>

@@ -22,7 +22,7 @@ const List = ({ people, handleDelete }) => {
                   }}
                   className="btn btn-sm btn-outline-danger"
                 >
-                  delete
+                  حذف
                 </button>
               </div>
             </div>
