@@ -1,15 +1,15 @@
 body {
-  background-color: #557B83;
+  background-color: #557b83;
 }
 .birthday-card {
   max-width: 500px;
 }
-.name{
-  background-color: #DFDFDE;
+.name {
+  background-color: #dfdfde;
 }
-.age{
-  background-color: #F7F5F2;
+.age {
+  background-color: #f7f5f2;
 }
-.birthday{
-  color: #557B83;
+.birthday {
+  color: #557b83;
 }
